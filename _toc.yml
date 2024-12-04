@@ -9,5 +9,5 @@ chapters:
     - file: Mohr_Circle/MohrCircle_Hibbler
     - file: Mohr_Circle/MohrCircle_Hibbler_Opposite
     - file: Mohr_Circle/MohrCircle_Timoshenko
-- file: notebooks
-- file: markdown-notebooks
+# - file: notebooks
+# - file: markdown-notebooks
