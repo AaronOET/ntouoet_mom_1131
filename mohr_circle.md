@@ -1,1 +1,1 @@
-# Mohr's Circle
+# Mohr's Circle for Stress

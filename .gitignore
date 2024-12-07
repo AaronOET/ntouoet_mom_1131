@@ -1,5 +1,5 @@
 # Folders
-build/
+_build/
 dist/
 .ipynb_checkpoints/
 .virtual_documents
