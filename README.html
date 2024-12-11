@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Mohr’s Circle for Stress &#8212; My sample book</title>
+    <title>Mohr’s circle &#8212; My sample book</title>
   
   
   
@@ -60,11 +60,9 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'mohr_circle';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'README';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Mohr’s Circle using Hibbler Sign Convension" href="Mohr_Circle/MohrCircle_Hibbler.html" />
-    <link rel="prev" title="Mechanics of Materials" href="intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -115,6 +113,8 @@
     <div class="bd-container__inner bd-page-width">
       
       
+      
+        
       
       <dialog id="pst-primary-sidebar-modal"></dialog>
       <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
@@ -168,8 +168,8 @@
                 </a>
             </li>
         </ul>
-        <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Mohr’s Circle for Stress</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="mohr_circle.html">Mohr’s Circle for Stress</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="Mohr_Circle/MohrCircle_Hibbler.html">Mohr’s Circle using Hibbler Sign Convension</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Mohr_Circle/MohrCircle_Hibbler_Opposite.html">Mohr’s Circle using “opposite” Hibbler Sign Convension</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Mohr_Circle/MohrCircle_Timoshenko.html">Mohr’s Circle using Timoshenko Sign Convension</a></li>
@@ -250,7 +250,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fmohr_circle.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FREADME.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -280,7 +280,7 @@
       
       
       
-      <li><a href="_sources/mohr_circle.md" target="_blank"
+      <li><a href="_sources/README.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -356,7 +356,7 @@
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Mohr’s Circle for Stress</h1>
+    <h1>Mohr’s circle</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -366,7 +366,8 @@
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stress">Stress</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#strain">Strain</a></li>
 </ul>
             </nav>
         </div>
@@ -378,20 +379,16 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="mohr-s-circle-for-stress">
-<h1>Mohr’s Circle for Stress<a class="headerlink" href="#mohr-s-circle-for-stress" title="Link to this heading">#</a></h1>
-<section id="table-of-contents">
-<h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Link to this heading">#</a></h2>
-<ol class="arabic simple">
-<li><p><a class="reference internal" href="Mohr_Circle/MohrCircle_Hibbler.html"><span class="doc std std-doc">MohrCircle_Hibbler</span></a>
-<a class="reference external" href="https://mybinder.org/v2/gh/AaronOET/ntouoet_mom_1131/main?labpath=Mohr_Circle%2FMohrCircle_Hibbler_Opposite.ipynb"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a>
-<a class="reference external" href="https://colab.research.google.com/github/AaronOET/ntouoet_mom_1131/blob/main/Mohr_Circle/MohrCircle_Hibbler.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p></li>
-<li><p><a class="reference internal" href="Mohr_Circle/MohrCircle_Hibbler_Opposite.html"><span class="doc std std-doc">MohrCircle_Hibbler_Opposite</span></a></p></li>
-<li><p><a class="reference internal" href="Mohr_Circle/MohrCircle_Timoshenko.html"><span class="doc std std-doc">MohrCircle_Timoshenko</span></a></p></li>
-</ol>
+  <section class="tex2jax_ignore mathjax_ignore" id="mohr-s-circle">
+<h1>Mohr’s circle<a class="headerlink" href="#mohr-s-circle" title="Link to this heading">#</a></h1>
+<section id="stress">
+<h2>Stress<a class="headerlink" href="#stress" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://mybinder.org/v2/gh/AaronOET/ntouoet_mom_1131/main?labpath=Mohr_Circle%2FMohrCircle_Hibbler_Opposite.ipynb"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a></p>
 </section>
-<div class="toctree-wrapper compound">
-</div>
+<section id="strain">
+<h2>Strain<a class="headerlink" href="#strain" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://mybinder.org/v2/gh/AaronOET/ntouoet_mom_1131/main?labpath=Mohr_Circle_Strain%2FMohrCircle_Strain_Hibbler.ipynb"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a></p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -424,24 +421,6 @@
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="intro.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Mechanics of Materials</p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="Mohr_Circle/MohrCircle_Hibbler.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Mohr’s Circle using Hibbler Sign Convension</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div>
                 </footer>
               
@@ -459,7 +438,8 @@
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stress">Stress</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#strain">Strain</a></li>
 </ul>
   </nav></div>
 
